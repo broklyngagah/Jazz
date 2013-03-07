@@ -12,12 +12,12 @@ use Silex\ServiceProviderInterface;
  */
 class CacheServiceProvider extends ServiceProviderInterface
 {
-    public function register(\Silex\Application $app)
+    public function register(\Silex\Application $app, $dir="")
     {
 
         $app['cache'] = $app->share(function () {
 
-            $cache = new Bolt\Cache();
+            $cache = new Cache($dir);
 
             return $cache;
 
