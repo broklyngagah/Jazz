@@ -10,7 +10,7 @@ use Silex\ServiceProviderInterface;
  *
  * @author broklyn
  */
-class CacheServiceProvider extends ServiceProviderInterface
+class CacheServiceProvider implements ServiceProviderInterface
 {
     public function register(\Silex\Application $app, $dir="")
     {
