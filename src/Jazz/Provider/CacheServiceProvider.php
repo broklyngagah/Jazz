@@ -25,7 +25,7 @@ class CacheServiceProvider extends ServiceProviderInterface
 
     }
 
-    public function boot(SilexApplication $app)
+    public function boot(\Silex\Application $app)
     {
     }
 }
