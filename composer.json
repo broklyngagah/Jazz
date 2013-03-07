@@ -1,11 +1,12 @@
 {
-    "name"        : "broklyngagah/Jazz",
+    "name"        : "broklyngagah/jazz",
     "description" : "expansion Silex",
     "license"     : "MIT",
 
     "authors" : [{
         "name"  : "Piter Lelaona",
-        "email" : "broklyn.gagah@gmail.com"
+        "email" : "broklyn.gagah@gmail.com",
+        "role": "Developer"
     }],
 
     "autoload" : {
